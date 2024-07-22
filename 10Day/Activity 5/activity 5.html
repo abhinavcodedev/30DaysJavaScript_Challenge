@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 5</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            cursor: pointer;
+            padding: 8px;
+            border: 1px solid #ddd;
+            margin-bottom: 4px;
+        }
+        li:hover {
+            background-color: #f0f0f0;
+        }
+        .dynamic-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .dynamic-list li {
+            cursor: pointer;
+            padding: 8px;
+            border: 1px solid #ddd;
+            margin-bottom: 4px;
+        }
+        .dynamic-list li:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <button id="addItemButton">Add Item</button>
+    <ul id="dynamicList" class="dynamic-list">
+        <!-- Dynamic items will be added here -->
+    </ul>
+    <script src="activity5_js.js"></script>
+</body>
+</html>
