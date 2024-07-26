@@ -1,5 +1,5 @@
 
-// Task 3: Create a module that export multiple functions using named exports.Imports and use these functions in another script.
+// Task 3: A a module that export multiple functions using named exports.Imports and use these functions in another script.
 
 function add(a, b) {
     return a + b;
