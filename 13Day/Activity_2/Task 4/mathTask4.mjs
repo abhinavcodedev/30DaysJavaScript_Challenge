@@ -1,5 +1,6 @@
 
-//Task 4: Create a module that export a single  functions using named exports. Imports and use these functions in another script.
+//Task 4: Create a module that export a single  functions using named exports. 
+// Imports and use these functions in another script.
 export function add(a, b) {
     return a + b;
   }
