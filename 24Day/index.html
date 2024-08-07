@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shotcut icon" type="x-icon" href="image/cloudy.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <div class="info">
+            <p class="title">Weather App</p>
+            <p class="loc" id="location">Location</p>
+
+            <div class="date-time">
+                <span class="day" id="day">Day</span>
+                <span class="date" id="date">Date</span>
+            </div>
+            <p class="time" id="time"></p>
+        </div>
+
+        <div class="city-input">
+            <input type="text" class="cityName" id="cityInput" placeholder="Enter City Name">
+            <button class="btn" id="searchBtn">Get Weather</button>
+        </div>
+
+        <div class="weather-info">
+            <div class="temp">
+                <p class="temperature" id="temperature">Temperature</p>
+                <p class="condition" id="condition">Condition</p>
+                <!-- <img id="weatherIcon" src="" alt="Weather Icon"> -->
+            </div>
+        </div>
+
+        <div class="forecast">
+            <h2>5-Day Forecast</h2>
+            <div id="forecast"></div>
+        </div>
+
+        <p id="error-message" style="color: red;"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
